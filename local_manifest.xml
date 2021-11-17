@@ -17,6 +17,6 @@
         <!-- VT -->
 	<project path="vendor/realme" name="vendor_realme_RMX1801" remote="ppui" revision="r11"/>
         <!-- Dirac -->
-        <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="master"/>
+        <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="lineage-18.1"/>
          
 </manifest>
