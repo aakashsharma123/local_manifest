@@ -9,7 +9,6 @@
         <!-- Remote 3 -->
         <remote name="ppui"
                 fetch="https://github.com/PixelPlusUI-Devices" />
-
         <!-- Remote 4 -->
         <remote name="cygnus"
                 fetch="https://github.com/Cygnus-devices" />
@@ -26,5 +25,8 @@
 
         <!-- Dirac -->
         <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="lineage-18.1"/>
+        
+        <!-- Remove -->
+        <remove-project name="vendor/qcom/opensource/commonsys-intf/display" />
          
 </manifest>
