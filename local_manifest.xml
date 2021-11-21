@@ -26,7 +26,6 @@
         <!-- Dirac -->
         <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="lineage-18.1"/>
         
-        <!-- Remove -->
-        <remove-project name="vendor/qcom/opensource/commonsys-intf/display" />
-         
+        
+
 </manifest>
