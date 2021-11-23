@@ -14,14 +14,16 @@
         <remote name="p404"
                 fetch="https://github.com/P-404" />
 
+        <!-- Remove repos -->
         <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
+
         <!-- Device repos -->
  	<project path="device/realme/RMX1801" name="device_realme_RMX1801" remote="shazu" revision="p404"/>
 	<project path="kernel/realme/sdm660" name="kernel_realme_sdm660" remote="ppui" revision="r11" />
 	<project path="vendor/realme" name="vendor_realme_RMX1801" remote="ppui" revision="r11"/>
         
         <!-- Hals -->
-        <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="p404" revision="qemu-8998" />
+        <project path="hardware/qcom/display" name="hardware_qcom_display" remote="shazu" revision="11-msm8998" />
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="p404" revision="qemu-8998" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="p404" revision="qemu-8998" />
 
