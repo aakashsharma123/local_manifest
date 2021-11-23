@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
         <!-- Remote 1 -->
 	<remote  name="shazu"
 		fetch="https://github.com/Shazu-xD" />
@@ -13,6 +14,7 @@
         <remote name="p404"
                 fetch="https://github.com/P-404" />
 
+        <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
         <!-- Device repos -->
  	<project path="device/realme/RMX1801" name="device_realme_RMX1801" remote="shazu" revision="p404"/>
 	<project path="kernel/realme/sdm660" name="kernel_realme_sdm660" remote="ppui" revision="r11" />
@@ -26,7 +28,6 @@
         <!-- Dirac -->
         <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="lineage-18.1"/>
      
-        
         
 
 </manifest>
