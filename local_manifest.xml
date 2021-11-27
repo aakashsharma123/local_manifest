@@ -23,10 +23,11 @@
 	<project path="vendor/realme" name="vendor_realme_RMX1801" remote="ppui" revision="r11"/>
         
         <!-- Hals -->
-        <project path="hardware/qcom/display" name="hardware_qcom_display" remote="shazu" revision="caf-11-8998" />
+        <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cygnus" revision="caf-11-8998" />
         <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cygnus" revision="caf-11-msm8998" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="cygnus" revision="caf-11-msm8998" />
-
+        <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="cygnus" revision="caf-11-msm8998" />
+       
         <!-- Dirac -->
         <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="lineage-18.1"/>
      
