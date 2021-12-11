@@ -6,7 +6,7 @@
 		fetch="https://github.com/Shazu-xD" />
          <!-- Remote 2 -->
          <remote name="ok"
-                 fetch="https://github.com/ArrowOS-Devices" 
+                 fetch="https://github.com/ArrowOS-Devices" />
          
         <!-- Device repos -->
  	<project path="device/realme/RMX1801" name="android_device_realme_RMX1801" remote="shazu" revision="arrow-12.0"/>
